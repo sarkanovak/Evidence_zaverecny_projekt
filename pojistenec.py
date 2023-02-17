@@ -7,3 +7,4 @@ class Pojistenec:
 
     def __str__(self):
         return f"jméno: {self.jmeno} {self.prijmeni}, věk: {self.vek}, tel.číslo:+420 {self.cislo}"
+    
