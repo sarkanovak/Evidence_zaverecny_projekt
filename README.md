@@ -5,7 +5,7 @@ Jedná se o jednoduchou konzolovou aplikaci, která umí vkládat, hledat, vypis
 - Při vkládání nového záznamu má podmínky, aby jméno či věk bylo odpovídajícího datového typu (tedy aby v jméně nešly ukládat číslice apod.)
     - pomocí _isdigit(), isaplha()_
 - Déle pokud při vkládání záznamu napíšete obě části jména malými písmeny, ve výpisu text automaticky převede na první velké počáteční písmeno
-    - pomocí _.title()
+    - pomocí _.title()_
 - Milé překvapení po ukončení aplikace :)
 
 #Python
