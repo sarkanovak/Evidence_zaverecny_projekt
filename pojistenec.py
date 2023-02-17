@@ -1,4 +1,3 @@
-
 class Pojistenec:
     def __init__(self, jmeno, prijmeni, vek, cislo):
         self.jmeno = jmeno
