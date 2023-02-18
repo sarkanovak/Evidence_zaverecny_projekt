@@ -1,12 +1,13 @@
 from seznam import Seznam
+from validace import kontrola_jecislo
 seznam = Seznam()
 
 while True:
     seznam.menu()
     try:
-        vyber = int(input("Zadejte číslo akce, kterou chcete provést:\n -> "))
+        vyber = kontrola_jecislo("Zadejte číslo akce, kterou chcete provést:\n -> ", "\nZvolená akce neexistuje.")
         if vyber < 1 or vyber > 4:
-            raise Exception("\nZvolená akce neexistuje.")
+            raise Exception
     except Exception as e:
         print(e)
         print("Prosím, zvolte validní číslo z menu.")
@@ -24,4 +25,3 @@ while True:
 
     elif vyber == 4:
         seznam.konec()
-        
